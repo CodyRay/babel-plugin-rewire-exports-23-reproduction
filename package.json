@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "babel src --out-dir lib --extensions \".ts,.tsx\""
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@babel/preset-typescript": "7.7.7",
+    "babel-plugin-rewire-exports": "2.0.0"
+  }
+}
